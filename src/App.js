@@ -12,7 +12,7 @@ import Tabs from "./components/Tabs";
 
 const ERC20_DECIMALS = 18;
 
-const contractAddress = "0x8055d91763D51B39BF045c7614F3EA81f9917F33";
+const contractAddress = "0x17d866ce9f9D251E959Bf8Bef64fF2CF59D09eEe";
 const cUSDContractAddress = "0x874069Fa1Eb16D44d622F2e0Ca25eeA172369bC1";
 
 function App() {

@@ -100,7 +100,7 @@ contract CarPark{
              IERC20Token(cUsdTokenAddress).transferFrom(
                 msg.sender,
                 cars[index].owner,
-                cars[index].amount
+                cars[index].amount * 1000000000000000000
             ),
             "Transaction could not be performed"
         );

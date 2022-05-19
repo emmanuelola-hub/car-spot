@@ -26,14 +26,14 @@ const Tabs = ({ addCar, cars, likeCar, dislikeCar, address, buyCar }) => {
                       onClick={() => likeCar(car.index)}
                     >
                       <i class="bi bi-hand-thumbs-up"></i>
-                      <p>{car.likes} Likes</p>
+                      <p>{car.likes.length} Likes</p>
                     </div>
                     <div
                       style={{ cursor: "grab" }}
                       onClick={() => dislikeCar(car.index)}
                     >
                       <i class="bi bi-hand-thumbs-down"></i>
-                      <p>{car.dislikes} Dislikes</p>
+                      <p>{car.dislikes.length} Dislikes</p>
                     </div>
                   </div>
                   {car.owner !== address && (
